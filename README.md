@@ -1,2 +1,2 @@
 # Test-compilations
-\\我太难了
+//我太难了
