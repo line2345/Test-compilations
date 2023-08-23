@@ -19,7 +19,7 @@ area_threshold=400
 for cont in contours:
     area=cv2.contourArea(cont)
     if area>area_threshold:
-        cv2.drawContours(image, [cont], -1, (255, 255, 255))
+        cv2.drawContours(image, [cont], -1, (0, 0, 255))
         M=cv2.moments(cont)
         if M["m00"] != 0:
             cX=int(M["m10"] / M["m00"])
